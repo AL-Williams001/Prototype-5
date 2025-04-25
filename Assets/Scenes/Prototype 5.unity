@@ -621,6 +621,7 @@ RectTransform:
   m_Children:
   - {fileID: 1463361538}
   - {fileID: 14834799}
+  - {fileID: 1255069043}
   - {fileID: 2055783332}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1229,6 +1230,7 @@ MonoBehaviour:
   scoreText: {fileID: 1463361539}
   gameOverText: {fileID: 14834800}
   restartButton: {fileID: 1255069044}
+  titleScreen: {fileID: 2055783331}
   isGameActive: 0
 --- !u!4 &828202963
 Transform:
@@ -1769,11 +1771,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 839636758}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 157037206}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 584, y: 198.5}
+  m_AnchoredPosition: {x: 4, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1255069044
@@ -2550,4 +2552,3 @@ SceneRoots:
   - {fileID: 828202963}
   - {fileID: 157037206}
   - {fileID: 1961097230}
-  - {fileID: 1255069043}
